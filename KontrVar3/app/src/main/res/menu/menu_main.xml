@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kontrvar3.MainActivity">
+    <item
+        android:id="@+id/Input"
+        android:orderInCategory="100"
+        android:title="@string/action_Input"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Work"
+        android:orderInCategory="100"
+        android:title="@string/action_Work"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Exit"
+        android:orderInCategory="100"
+        android:title="@string/action_Exit"
+        app:showAsAction="never" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+</menu>
